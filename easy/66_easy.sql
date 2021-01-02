@@ -1,4 +1,4 @@
-Q- Product's Worth Over Invoices
+Q- Products Worth Over Invoices
 select name,
 sum(rest) as rest,
 sum(paid) as paid,
