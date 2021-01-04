@@ -7,3 +7,5 @@ or t.Client_Id = u.Users_Id
 where Banned = 'No'
 and Request_at between '2013-10-01' and '2013-10-03'
 group by Request_at
+
+
