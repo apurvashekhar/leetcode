@@ -1,2 +1,2 @@
 # leetcode
-Solution of SQL questions in Leetcode
+Solution of SQL and Python questions in Leetcode
