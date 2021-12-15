@@ -1,6 +1,8 @@
-Q- Defanging an IP Address.
+Q- Richest Customer Wealth
 class Solution:
-    def defangIPaddr(self, address: str) -> str:
-        split_str = address.split(".")
-        ans = "[.]".join(split_str)
-        return ans
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+        max_wealth = None
+        for i in accounts:
+            if max_wealth == None or max_wealth <= sum(i) :
+                max_wealth = sum(i)
+        return max_wealth
